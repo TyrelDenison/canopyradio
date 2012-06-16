@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DC1EF03158D0E1800A96901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC1EF02158D0E1800A96901 /* UIKit.framework */; };
+		7DC1EF05158D0E1800A96901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC1EF04158D0E1800A96901 /* Foundation.framework */; };
+		7DC1EF07158D0E1800A96901 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC1EF06158D0E1800A96901 /* CoreGraphics.framework */; };
+		7DC1EF0D158D0E1800A96901 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DC1EF0B158D0E1800A96901 /* InfoPlist.strings */; };
+		7DC1EF0F158D0E1800A96901 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1EF0E158D0E1800A96901 /* main.m */; };
+		7DC1EF13158D0E1800A96901 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1EF12158D0E1800A96901 /* AppDelegate.m */; };
+		7DC1EF16158D0E1800A96901 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1EF15158D0E1800A96901 /* RootViewController.m */; };
+		7DC1EF19158D0E1800A96901 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1EF18158D0E1800A96901 /* DataViewController.m */; };
+		7DC1EF1C158D0E1800A96901 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1EF1B158D0E1800A96901 /* ModelController.m */; };
+		7DC1EF1F158D0E1800A96901 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC1EF1D158D0E1800A96901 /* MainStoryboard_iPhone.storyboard */; };
+		7DC1EF22158D0E1800A96901 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC1EF20158D0E1800A96901 /* MainStoryboard_iPad.storyboard */; };
+		7DC1EF2A158D0E1900A96901 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC1EF29158D0E1900A96901 /* SenTestingKit.framework */; };
+		7DC1EF2B158D0E1900A96901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC1EF02158D0E1800A96901 /* UIKit.framework */; };
+		7DC1EF2C158D0E1900A96901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC1EF04158D0E1800A96901 /* Foundation.framework */; };
+		7DC1EF34158D0E1900A96901 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DC1EF32158D0E1900A96901 /* InfoPlist.strings */; };
+		7DC1EF37158D0E1900A96901 /* Canopy_RadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1EF36158D0E1900A96901 /* Canopy_RadioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DC1EF2D158D0E1900A96901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DC1EEF5158D0E1800A96901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DC1EEFD158D0E1800A96901;
+			remoteInfo = "Canopy Radio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DC1EEFE158D0E1800A96901 /* Canopy Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canopy Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC1EF02158D0E1800A96901 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DC1EF04158D0E1800A96901 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DC1EF06158D0E1800A96901 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DC1EF0A158D0E1800A96901 /* Canopy Radio-Info.plist */ = {isa = PBXFileReference; path = "Canopy Radio-Info.plist"; sourceTree = "<group>"; };
+		7DC1EF0C158D0E1800A96901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DC1EF0E158D0E1800A96901 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DC1EF10158D0E1800A96901 /* Canopy Radio-Prefix.pch */ = {isa = PBXFileReference; path = "Canopy Radio-Prefix.pch"; sourceTree = "<group>"; };
+		7DC1EF11158D0E1800A96901 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DC1EF12158D0E1800A96901 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DC1EF14158D0E1800A96901 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		7DC1EF15158D0E1800A96901 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7DC1EF17158D0E1800A96901 /* DataViewController.h */ = {isa = PBXFileReference; path = DataViewController.h; sourceTree = "<group>"; };
+		7DC1EF18158D0E1800A96901 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		7DC1EF1A158D0E1800A96901 /* ModelController.h */ = {isa = PBXFileReference; path = ModelController.h; sourceTree = "<group>"; };
+		7DC1EF1B158D0E1800A96901 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		7DC1EF1E158D0E1800A96901 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7DC1EF21158D0E1800A96901 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7DC1EF28158D0E1900A96901 /* Canopy RadioTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canopy RadioTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC1EF29158D0E1900A96901 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7DC1EF31158D0E1900A96901 /* Canopy RadioTests-Info.plist */ = {isa = PBXFileReference; path = "Canopy RadioTests-Info.plist"; sourceTree = "<group>"; };
+		7DC1EF33158D0E1900A96901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DC1EF35158D0E1900A96901 /* Canopy_RadioTests.h */ = {isa = PBXFileReference; path = Canopy_RadioTests.h; sourceTree = "<group>"; };
+		7DC1EF36158D0E1900A96901 /* Canopy_RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Canopy_RadioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DC1EEFB158D0E1800A96901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC1EF03158D0E1800A96901 /* UIKit.framework in Frameworks */,
+				7DC1EF05158D0E1800A96901 /* Foundation.framework in Frameworks */,
+				7DC1EF07158D0E1800A96901 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC1EF24158D0E1900A96901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC1EF2A158D0E1900A96901 /* SenTestingKit.framework in Frameworks */,
+				7DC1EF2B158D0E1900A96901 /* UIKit.framework in Frameworks */,
+				7DC1EF2C158D0E1900A96901 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DC1EEF3158D0E1800A96901 = {
+			isa = PBXGroup;
+			children = (
+				7DC1EF08158D0E1800A96901 /* Canopy Radio */,
+				7DC1EF2F158D0E1900A96901 /* Canopy RadioTests */,
+				7DC1EF01158D0E1800A96901 /* Frameworks */,
+				7DC1EEFF158D0E1800A96901 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC1EEFF158D0E1800A96901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DC1EEFE158D0E1800A96901 /* Canopy Radio.app */,
+				7DC1EF28158D0E1900A96901 /* Canopy RadioTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DC1EF01158D0E1800A96901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DC1EF02158D0E1800A96901 /* UIKit.framework */,
+				7DC1EF04158D0E1800A96901 /* Foundation.framework */,
+				7DC1EF06158D0E1800A96901 /* CoreGraphics.framework */,
+				7DC1EF29158D0E1900A96901 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DC1EF08158D0E1800A96901 /* Canopy Radio */ = {
+			isa = PBXGroup;
+			children = (
+				7DC1EF11158D0E1800A96901 /* AppDelegate.h */,
+				7DC1EF12158D0E1800A96901 /* AppDelegate.m */,
+				7DC1EF14158D0E1800A96901 /* RootViewController.h */,
+				7DC1EF15158D0E1800A96901 /* RootViewController.m */,
+				7DC1EF17158D0E1800A96901 /* DataViewController.h */,
+				7DC1EF18158D0E1800A96901 /* DataViewController.m */,
+				7DC1EF1A158D0E1800A96901 /* ModelController.h */,
+				7DC1EF1B158D0E1800A96901 /* ModelController.m */,
+				7DC1EF1D158D0E1800A96901 /* MainStoryboard_iPhone.storyboard */,
+				7DC1EF20158D0E1800A96901 /* MainStoryboard_iPad.storyboard */,
+				7DC1EF09158D0E1800A96901 /* Supporting Files */,
+			);
+			path = "Canopy Radio";
+			sourceTree = "<group>";
+		};
+		7DC1EF09158D0E1800A96901 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DC1EF0A158D0E1800A96901 /* Canopy Radio-Info.plist */,
+				7DC1EF0B158D0E1800A96901 /* InfoPlist.strings */,
+				7DC1EF0E158D0E1800A96901 /* main.m */,
+				7DC1EF10158D0E1800A96901 /* Canopy Radio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DC1EF2F158D0E1900A96901 /* Canopy RadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DC1EF35158D0E1900A96901 /* Canopy_RadioTests.h */,
+				7DC1EF36158D0E1900A96901 /* Canopy_RadioTests.m */,
+				7DC1EF30158D0E1900A96901 /* Supporting Files */,
+			);
+			path = "Canopy RadioTests";
+			sourceTree = "<group>";
+		};
+		7DC1EF30158D0E1900A96901 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DC1EF31158D0E1900A96901 /* Canopy RadioTests-Info.plist */,
+				7DC1EF32158D0E1900A96901 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DC1EEFD158D0E1800A96901 /* Canopy Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC1EF3A158D0E1900A96901 /* Build configuration list for PBXNativeTarget "Canopy Radio" */;
+			buildPhases = (
+				7DC1EEFA158D0E1800A96901 /* Sources */,
+				7DC1EEFB158D0E1800A96901 /* Frameworks */,
+				7DC1EEFC158D0E1800A96901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Canopy Radio";
+			productName = "Canopy Radio";
+			productReference = 7DC1EEFE158D0E1800A96901 /* Canopy Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DC1EF27158D0E1900A96901 /* Canopy RadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC1EF3D158D0E1900A96901 /* Build configuration list for PBXNativeTarget "Canopy RadioTests" */;
+			buildPhases = (
+				7DC1EF23158D0E1900A96901 /* Sources */,
+				7DC1EF24158D0E1900A96901 /* Frameworks */,
+				7DC1EF25158D0E1900A96901 /* Resources */,
+				7DC1EF26158D0E1900A96901 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DC1EF2E158D0E1900A96901 /* PBXTargetDependency */,
+			);
+			name = "Canopy RadioTests";
+			productName = "Canopy RadioTests";
+			productReference = 7DC1EF28158D0E1900A96901 /* Canopy RadioTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DC1EEF5158D0E1800A96901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7DC1EEF8158D0E1800A96901 /* Build configuration list for PBXProject "Canopy Radio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DC1EEF3158D0E1800A96901;
+			productRefGroup = 7DC1EEFF158D0E1800A96901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DC1EEFD158D0E1800A96901 /* Canopy Radio */,
+				7DC1EF27158D0E1900A96901 /* Canopy RadioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DC1EEFC158D0E1800A96901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC1EF0D158D0E1800A96901 /* InfoPlist.strings in Resources */,
+				7DC1EF1F158D0E1800A96901 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7DC1EF22158D0E1800A96901 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC1EF25158D0E1900A96901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC1EF34158D0E1900A96901 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DC1EF26158D0E1900A96901 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DC1EEFA158D0E1800A96901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC1EF0F158D0E1800A96901 /* main.m in Sources */,
+				7DC1EF13158D0E1800A96901 /* AppDelegate.m in Sources */,
+				7DC1EF16158D0E1800A96901 /* RootViewController.m in Sources */,
+				7DC1EF19158D0E1800A96901 /* DataViewController.m in Sources */,
+				7DC1EF1C158D0E1800A96901 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC1EF23158D0E1900A96901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC1EF37158D0E1900A96901 /* Canopy_RadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DC1EF2E158D0E1900A96901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DC1EEFD158D0E1800A96901 /* Canopy Radio */;
+			targetProxy = 7DC1EF2D158D0E1900A96901 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DC1EF0B158D0E1800A96901 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC1EF0C158D0E1800A96901 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DC1EF1D158D0E1800A96901 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC1EF1E158D0E1800A96901 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7DC1EF20158D0E1800A96901 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC1EF21158D0E1800A96901 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7DC1EF32158D0E1900A96901 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC1EF33158D0E1900A96901 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DC1EF38158D0E1900A96901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DC1EF39158D0E1900A96901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DC1EF3B158D0E1900A96901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Canopy Radio/Canopy Radio-Prefix.pch";
+				INFOPLIST_FILE = "Canopy Radio/Canopy Radio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DC1EF3C158D0E1900A96901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Canopy Radio/Canopy Radio-Prefix.pch";
+				INFOPLIST_FILE = "Canopy Radio/Canopy Radio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7DC1EF3E158D0E1900A96901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Canopy Radio.app/Canopy Radio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Canopy Radio/Canopy Radio-Prefix.pch";
+				INFOPLIST_FILE = "Canopy RadioTests/Canopy RadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7DC1EF3F158D0E1900A96901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Canopy Radio.app/Canopy Radio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Canopy Radio/Canopy Radio-Prefix.pch";
+				INFOPLIST_FILE = "Canopy RadioTests/Canopy RadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DC1EEF8158D0E1800A96901 /* Build configuration list for PBXProject "Canopy Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC1EF38158D0E1900A96901 /* Debug */,
+				7DC1EF39158D0E1900A96901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC1EF3A158D0E1900A96901 /* Build configuration list for PBXNativeTarget "Canopy Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC1EF3B158D0E1900A96901 /* Debug */,
+				7DC1EF3C158D0E1900A96901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DC1EF3D158D0E1900A96901 /* Build configuration list for PBXNativeTarget "Canopy RadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC1EF3E158D0E1900A96901 /* Debug */,
+				7DC1EF3F158D0E1900A96901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DC1EEF5158D0E1800A96901 /* Project object */;
+}
