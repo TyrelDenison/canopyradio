@@ -40,25 +40,25 @@
 		7DC1EF02158D0E1800A96901 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7DC1EF04158D0E1800A96901 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DC1EF06158D0E1800A96901 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7DC1EF0A158D0E1800A96901 /* Canopy Radio-Info.plist */ = {isa = PBXFileReference; path = "Canopy Radio-Info.plist"; sourceTree = "<group>"; };
+		7DC1EF0A158D0E1800A96901 /* Canopy Radio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Canopy Radio-Info.plist"; sourceTree = "<group>"; };
 		7DC1EF0C158D0E1800A96901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DC1EF0E158D0E1800A96901 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7DC1EF10158D0E1800A96901 /* Canopy Radio-Prefix.pch */ = {isa = PBXFileReference; path = "Canopy Radio-Prefix.pch"; sourceTree = "<group>"; };
-		7DC1EF11158D0E1800A96901 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DC1EF10158D0E1800A96901 /* Canopy Radio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Canopy Radio-Prefix.pch"; sourceTree = "<group>"; };
+		7DC1EF11158D0E1800A96901 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DC1EF12158D0E1800A96901 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7DC1EF14158D0E1800A96901 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		7DC1EF14158D0E1800A96901 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		7DC1EF15158D0E1800A96901 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		7DC1EF17158D0E1800A96901 /* DataViewController.h */ = {isa = PBXFileReference; path = DataViewController.h; sourceTree = "<group>"; };
+		7DC1EF17158D0E1800A96901 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
 		7DC1EF18158D0E1800A96901 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		7DC1EF1A158D0E1800A96901 /* ModelController.h */ = {isa = PBXFileReference; path = ModelController.h; sourceTree = "<group>"; };
+		7DC1EF1A158D0E1800A96901 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
 		7DC1EF1B158D0E1800A96901 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		7DC1EF1E158D0E1800A96901 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		7DC1EF21158D0E1800A96901 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		7DC1EF28158D0E1900A96901 /* Canopy RadioTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canopy RadioTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC1EF29158D0E1900A96901 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7DC1EF31158D0E1900A96901 /* Canopy RadioTests-Info.plist */ = {isa = PBXFileReference; path = "Canopy RadioTests-Info.plist"; sourceTree = "<group>"; };
+		7DC1EF31158D0E1900A96901 /* Canopy RadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Canopy RadioTests-Info.plist"; sourceTree = "<group>"; };
 		7DC1EF33158D0E1900A96901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7DC1EF35158D0E1900A96901 /* Canopy_RadioTests.h */ = {isa = PBXFileReference; path = Canopy_RadioTests.h; sourceTree = "<group>"; };
+		7DC1EF35158D0E1900A96901 /* Canopy_RadioTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Canopy_RadioTests.h; sourceTree = "<group>"; };
 		7DC1EF36158D0E1900A96901 /* Canopy_RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Canopy_RadioTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
